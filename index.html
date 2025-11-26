@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DEV HOUSE — Controller Drive</title>
+
+  <!-- Poppins font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- main stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="Help bring better controllers to DEV HOUSE — donate to support our upcoming tournament." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="images/logo.png" alt="DEV HOUSE logo" onerror="this.style.display='none'"/>
+        <span class="brand">DEV HOUSE</span>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#donate">Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <div class="hero-icon">🎮</div>
+          <h1>Help Bring Better Controllers to DEV HOUSE</h1>
+          <p class="lead">Support our community-driven controller fund — preparing for the upcoming tournament. Every donation makes a difference.</p>
+          <div class="cta">
+            <button id="donatePrimary" class="btn primary">Donate</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero-controller.jpg" alt="Gaming controllers on a table">
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="why">
+      <div class="container">
+        <h2 class="section-title">Why We Need Donations</h2>
+        <div class="cards">
+          <div class="card small">
+            <div class="card-icon">⚠️</div>
+            <h3>Worn-out Equipment</h3>
+            <p>Controllers are damaged and need replacement to ensure fair play.</p>
+          </div>
+          <div class="card small">
+            <div class="card-icon">🤝</div>
+            <h3>Community Initiative</h3>
+            <p>Members are upgrading together so everyone can compete comfortably.</p>
+          </div>
+          <div class="card small">
+            <div class="card-icon">🔒</div>
+            <h3>100% Transparent Goal</h3>
+            <p>All donations go directly to buying controllers for the tournament.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Donation card -->
+    <section id="donate" class="donation-section">
+  <div class="container">
+    <div class="donation-card">
+      <h3 class="card-title">Make a Donation</h3>
+
+      <!-- Only the Donate Now button -->
+      <div class="donate-cta-row">
+        <button id="donateBtn" class="btn primary">Donate Now ▾</button>
+      </div>
+
+      <!-- Dropdown / details -->
+      <div id="donationDropdown" class="donation-dropdown" aria-hidden="true">
+        <div class="dropdown-grid">
+          <div class="dropdown-section">
+            <h4>🔐 Bank Transfer</h4>
+            <p><strong>Account Title:</strong> DEV HOUSE</p>
+            <p><strong>Bank:</strong> Meezan Bank</p>
+            <p><strong>Account Number:</strong> <span class="copyable" data-copy="0123456789">0123456789</span></p>
+            <p><strong>IBAN:</strong> PK00-MEEZ-0000-0000</p>
+          </div>
+
+          <div class="dropdown-section">
+            <h4>📱 Easypaisa</h4>
+            <p><strong>Number:</strong> <span class="copyable" data-copy="03XXXXXXXXX">03XX-XXXXXXX</span></p>
+            <p><strong>Name:</strong> DEV HOUSE</p>
+          </div>
+
+          <div class="dropdown-section">
+            <h4>💸 JazzCash</h4>
+            <p><strong>Number:</strong> <span class="copyable" data-copy="03YYYYYYYYY">03XX-XXXXXXX</span></p>
+            <p><strong>Name:</strong> DEV HOUSE</p>
+          </div>
+
+          <div class="dropdown-section">
+            <h4>📞 Contact</h4>
+            <p><strong>Phone:</strong> +92 3XX-XXXXXXX</p>
+            <p><strong>Email:</strong> contact@devhouse.com</p>
+            <p class="small-note">Please include your name and amount in the transfer note. DM us after transfer for confirmation.</p>
+          </div>
+        </div>
+
+        <div class="dropdown-actions">
+          <button id="closeDropdown" class="btn ghost">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Alternating image sections (3) -->
+    <section class="alternating">
+      <div class="container">
+        <!-- Section 1: image right -->
+        <div class="alt-row alt-row-reverse">
+          <div class="alt-text">
+            <h3>1. Controllers Are Worn Out</h3>
+            <ul class="points">
+              <li>Many controllers have broken analog sticks and drift issues.</li>
+              <li>Buttons are failing and become unresponsive under pressure.</li>
+              <li>Poor equipment leads to unfair gameplay during the tournament.</li>
+            </ul>
+          </div>
+          <div class="alt-image">
+            <img src="images/old-controller.jpg" alt="Old damaged controller">
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- Section 2: image left -->
+         <section class="alternating">
+      <div class="container">
+        <!-- Section 1: image right -->
+        <div class="alt-row alt-row-reverse">
+          <div class="alt-text">
+            <h3>2. DEV HOUSE Tournament Is Coming</h3>
+            <ul class="points">
+              <li>We're hosting a local tournament soon and need reliable equipment.</li>
+              <li>Fair and consistent controllers ensure a level playing field.</li>
+              <li>Better gear improves player performance and spectator experience.</li>
+            </ul>
+          </div>
+          <div class="alt-image">
+            <img src="images/players-practice.jpg" alt="Players practicing for tournament">
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- Section 3: image right -->
+        <div class="alt-row alt-row-reverse">
+          <div class="alt-text">
+            <h3>3. Upgrading Our Gaming Setup</h3>
+            <ul class="points">
+              <li>New controllers improve training and competitive readiness.</li>
+              <li>They help in game testing and development sessions.</li>
+              <li>They attract new members and support community growth.</li>
+            </ul>
+          </div>
+          <div class="alt-image">
+            <img src="images/new-controllers.jpg" alt="New modern controllers">
+          </div>
+        </div>
+      </div>
+    </section>
+        
+    <hr class="divider">
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About DEV HOUSE</h2>
+        <p>DEV HOUSE is a community-driven tech and gaming workspace. This controller fundraiser helps us prepare for our upcoming tournament and create a better environment for gameplay, development, and testing. Every contribution directly improves our ability to host fair and enjoyable events.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>DEV HOUSE © 2025 — Community Powered — Transparency First</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
